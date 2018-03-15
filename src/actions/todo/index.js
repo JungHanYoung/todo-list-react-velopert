@@ -1,11 +1,11 @@
-import todoCreate from './Create';
-import todoToggle from './Toggle';
-import todoRemove from './Remove';
-import todoSetColor from './SetColor';
+import Create from './Create';
+import Toggle from './Toggle';
+import Remove from './Remove';
+import SetColor from './SetColor';
 
-export {
-    todoCreate,
-    todoToggle,
-    todoRemove,
-    todoSetColor
+export default {
+    Create,
+    Toggle,
+    Remove,
+    SetColor
 }
